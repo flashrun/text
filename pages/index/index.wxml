@@ -51,5 +51,83 @@
         <image class="pic" src="/images/kecheng1.png"></image>
         <view class="txt">Web前端</view>
       </navigator>
-
 </scroll-view>
+
+<view class="works">
+<view class="container">
+  <view class="pubTitle">
+     <view class="txt">学员作品</view>
+     <navigator class="more">更多 ></navigator>
+  </view>
+
+  <view class="wkMain">
+    <navigator class="box" >
+      <image class="pic" src="/images/xszp1.jpg"></image>
+      <view class="ceng">
+         <view class="tit">UI设计作品</view>
+         <view class="line"></view>
+         <view class="des">UI design works</view>
+      </view> 
+    </navigator>
+
+    <navigator class="box" >
+      <image class="pic" src="/images/xszp2.jpg"></image>
+      <view class="ceng">
+         <view class="tit">平面作品</view>
+         <view class="line"></view>
+         <view class="des">Graphic works</view>
+      </view> 
+    </navigator>
+    <navigator class="box" >
+      <image class="pic" src="/images/xszp3.jpg"></image>
+      <view class="ceng">
+         <view class="tit">电商作品</view>
+         <view class="line"></view>
+         <view class="des">Electricity works</view>
+       </view> 
+    </navigator>
+    <navigator class="box" >
+      <image class="pic" src="/images/xszp4.jpg"></image>
+      <view class="ceng">
+         <view class="tit">室内作品</view>
+         <view class="line"></view>
+         <view class="des">The indoor works</view>
+        </view> 
+    </navigator>
+    <navigator class="box" >
+      <image class="pic" src="/images/xszp5.jpg"></image>
+      <view class="ceng">
+         <view class="tit">UI设计作品</view>
+         <view class="line"></view>
+         <view class="des">UI design works</view>
+        </view> 
+    </navigator>
+         <navigator class="box" >
+      <image class="pic" src="/images/xszp6.jpg"></image>
+      <view class="ceng">
+         <view class="tit">UI设计作品</view>
+         <view class="line"></view>
+         <view class="des">UI design works</view>
+        </view> 
+    </navigator>
+   <navigator class="box" >
+      <image class="pic" src="/images/xszp7.jpg"></image>
+      <view class="ceng">
+         <view class="tit">Web前端作品</view>
+         <view class="line"></view>
+         <view class="des">The web front end works</view>
+      </view>
+    </navigator>
+
+    <navigator class="box" >
+      <image class="pic" src="/images/xszp8.jpg"></image>
+      <view class="ceng">
+         <view class="tit">UI设计作品</view>
+         <view class="line"></view>
+         <view class="des">UI design works</view>
+      </view> 
+    </navigator>
+  </view>
+</view>
+</view>
+
