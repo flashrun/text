@@ -2,7 +2,8 @@
     "pages": [
         "pages/index/index",
         "pages/works/works",
-        "pages/dynamic/dynamic"
+        "pages/dynamic/dynamic",
+        "pages/ps/ps"
     ],
     "window": {
         "backgroundTextStyle": "light",

@@ -22,7 +22,7 @@
 
 <scroll-view class="major" scroll-x>
   
-      <navigator class="box" url=""> 
+      <navigator class="box" url="/pages/ps/ps"> 
         <image class="pic" src="/images/kecheng1.png"></image>
         <view class="txt">平面设计</view>
       </navigator>
