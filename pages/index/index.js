@@ -4,14 +4,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    dataList:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    
+  onLoad: function (options) 
+  {
+    wx.request
+    ({
+      url: 'https://ku.qingnian8.com/school/list.php',
+      success:res=>
+      {
+        {
+          res.data.forEach
+          (item =>
+            {
+            var time=item.posttime*1000;
+            var d=new Date(time);
+            var year=d.getFullYear();
+            var month=d.getMonth()+1<10?"0"+d.getMonth():d.getMonth()+1;
+            var day=d.getDate()<10?"0"+d.getDate():d.getDate();
+            var posttime=year+"-"+month+"-"+day;
+            item.posttime=posttime;
+            });
+        }
+
+        this.setData({dataList:res.data})
+      }
+    })
   },
 
   /**

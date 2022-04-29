@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "HdView":"/component/HdView/HdView",
+    "FtView":"/component/FtVIew/FtView",
+    "PubTitle":"/component/PubTitle/PulTitle"
+
+  }
 }
